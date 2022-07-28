@@ -1,0 +1,96 @@
+@import url(./notfound/NotFound.css);
+
+body {
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(-45deg, #990087, #970067, #100027, #0b000c);
+  background-position: 20% 80%;
+  background-size: 1000% 1500%;
+  animation: gradient 5s ease 1;
+  /* background-image: url("../images/back1.jpg");
+  background-color: #cccccc; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  display: contents;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:focus,
+a:active {
+  color: var(--interaction-color);
+}
+
+i {
+  font-size: var(--font-size-icon);
+}
+
+::selection {
+  background-color: var(--interaction-color);
+  color: white;
+}
+
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+  background: transparent;
+}
+
+body::-webkit-scrollbar-track {
+  background: linear-gradient(
+    -45deg,
+    #990087,
+    #970067,
+    #4b0071,
+    #7e0161
+  ); /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: linear-gradient(
+    -45deg,
+    #990087,
+    #970067,
+    #100027,
+    #0b000c
+  ); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 2px solid rgb(255, 255, 255); /* creates padding around scroll thumb */
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 20% 80%;
+  }
+}
+
+:root {
+  --main-border-radius: 0.25vw;
+}
+
+
+@media only screen and (max-width: 450px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+}
