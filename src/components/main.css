@@ -87,10 +87,25 @@ body::-webkit-scrollbar-thumb {
   --main-border-radius: 0.25vw;
 }
 
-
 @media only screen and (max-width: 450px) {
   * {
     margin: 0;
     padding: 0;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(-45deg, #990087, #970067, #100027, #0b000c);
+    background-position: 20% 80%;
+    background-size: 1000% 2000%;
+    animation: gradient 5s ease 1;
+    /* background-image: url("../images/back1.jpg");
+    background-color: #cccccc; */
   }
 }

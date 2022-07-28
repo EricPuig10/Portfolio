@@ -2,7 +2,7 @@ export const NotFound = () => {
   return (
     <>
       <main class="bl_page404">
-        <h1 style={{ textAlign: "center", color:"white" }}>
+        <h1 style={{ textAlign: "center", color: "white" }}>
           Error 404. The page does not exist
         </h1>
         <div class="bl_page404__wrapper">

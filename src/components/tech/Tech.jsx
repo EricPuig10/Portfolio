@@ -1,13 +1,19 @@
 import { useEffect, useState } from "react";
 import techsdata from "../../data/tech.json";
-import { AllTechsDiv, CenterDiv, TechDiv, TechImg, TitleTech } from "./Tech.styled";
+import {
+  AllTechsDiv,
+  CenterDiv,
+  TechDiv,
+  TechImg,
+  TitleTech,
+} from "./Tech.styled";
 
 export const Tech = () => {
   const [techs, setTechs] = useState([]);
 
   useEffect(() => {
     setTechs(techsdata);
-  },[]);
+  }, []);
 
   return (
     <>

@@ -27,6 +27,7 @@ export const Main = () => {
   const [eric, setEric] = useState([ericdata]);
 
   useEffect(() => {
+    scroll.scrollToTop();
     setEric(ericdata);
   }, []);
 

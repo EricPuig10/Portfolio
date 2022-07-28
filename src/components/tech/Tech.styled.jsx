@@ -17,8 +17,8 @@ export const AllTechsDiv = styled.div`
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  @media (max-width: 450px){
-    width: 90%;
+  @media (max-width: 450px) {
+    width: 100%;
   }
 `;
 
@@ -48,4 +48,8 @@ export const TitleTech = styled.h2`
   margin-top: 2%;
   color: white;
   margin-bottom: 0%;
+  @media (max-width: 450px) {
+    margin-top: 20%;
+    margin-bottom: 5%;
+  }
 `;

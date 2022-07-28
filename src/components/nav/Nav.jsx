@@ -24,7 +24,9 @@ export const Nav = () => {
           <LogoImg src={logo} alt="epsLogo" />
         </DivLogo>
         <DivNavButtons>
-          <NavBtn onClick={() => scroller.scrollTo("about", scrollType)}>ABOUT ME</NavBtn>
+          <NavBtn onClick={() => scroller.scrollTo("about", scrollType)}>
+            ABOUT ME
+          </NavBtn>
           <NavBtn onClick={() => scroller.scrollTo("technologies", scrollType)}>
             TECHNOLOGIES
           </NavBtn>

@@ -4,7 +4,7 @@ export const MainDiv = styled.div`
   /* background-color: white; */
   padding-top: 8%;
   width: 100%;
-  height:70vh;
+  height: 70vh;
   display: flex;
   @media (max-width: 450px) {
     padding-top: 30%;
@@ -52,6 +52,7 @@ export const RightDiv = styled.div`
   align-items: center;
   @media (max-width: 450px) {
     width: 100%;
+    margin-top: 10%;
   }
 `;
 
@@ -162,4 +163,3 @@ export const Text = styled.p`
     font-size: 1.2em;
   }
 `;
-
