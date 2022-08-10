@@ -6,6 +6,12 @@ export const MainDiv = styled.div`
   width: 100%;
   height: 70vh;
   display: flex;
+  @media (max-width: 830px) {
+    padding-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
 
   @media (max-width: 450px) {
     padding-top: 35%;
@@ -172,8 +178,12 @@ export const ImgUser = styled.img`
   border-radius: 50%;
   margin-left: 5%;
   @media (max-width: 830px) {
-    width: 70%;
+    width: 65%;
     height: 85%;
+  }
+  @media (max-width: 450px) {
+    width: 80%;
+    height: 90%;
   }
 `;
 
