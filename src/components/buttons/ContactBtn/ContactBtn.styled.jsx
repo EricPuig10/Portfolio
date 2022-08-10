@@ -8,7 +8,7 @@ export const ContactBtn = styled.button`
   color: #efe7e7;
   background: linear-gradient(115deg, #008ac1, #335ec3, #8a009c, #e11fc4);
   border: none;
-  border-radius: var(--main-border-radius);
+  border-radius: 2vw;
   cursor: pointer;
   font-size: 1em;
   transition: box-shadow 500ms ease-in-out, color 500ms ease-in-out;

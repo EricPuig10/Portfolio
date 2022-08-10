@@ -9,6 +9,14 @@ export const CenterDiv = styled.div`
   width: 100%;
   height: 540px;
   margin-top: 6%;
+  @media (max-width: 830px) {
+    padding-top: 10%;
+    padding-bottom: 5%;
+  }
+  @media (max-width: 450px) {
+    padding-top: 25%;
+    padding-bottom: 5%;
+  }
 `;
 
 export const AllTechsDiv = styled.div`
@@ -17,6 +25,9 @@ export const AllTechsDiv = styled.div`
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  @media (max-width: 830px) {
+    width: 60%;
+  }
   @media (max-width: 450px) {
     width: 100%;
   }
@@ -48,7 +59,7 @@ export const TitleTech = styled.h2`
   margin-top: 2%;
   color: white;
   margin-bottom: 0%;
-  @media (max-width: 450px) {
+  @media (max-width: 830px) {
     margin-top: 20%;
     margin-bottom: 5%;
   }

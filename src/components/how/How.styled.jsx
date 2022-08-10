@@ -7,7 +7,7 @@ export const SecondDiv = styled.div`
   height: 150px;
   display: flex;
   justify-content: space-evenly;
-  @media (max-width: 450px) {
+  @media (max-width: 830px) {
     display: flex;
     flex-direction: column;
   }
@@ -27,7 +27,7 @@ export const HowIWorkDiv = styled.div`
   justify-content: center;
   text-align: center;
   color: white;
-  @media (max-width: 450px) {
+  @media (max-width: 830px) {
     width: 80%;
     height: 30%;
     align-self: center;
@@ -54,7 +54,7 @@ export const TitleHow = styled.h3`
   width: 100%;
   font-weight: 100;
   font-size: 1em;
-  @media (max-width: 450px) {
+  @media (max-width: 830px) {
     font-size: 1.2em;
   }
 `;

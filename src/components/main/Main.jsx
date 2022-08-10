@@ -37,7 +37,12 @@ export const Main = () => {
         <MainDiv>
           <LeftDiv>
             <DivTitle>
-              <Title>{eric[0].slogan}</Title>
+              <Title>
+                {eric[0].slogan} <br></br>
+                <br></br> Dedicated, hard-worker and proactive. Develope and
+                test to increase the overall efficiency of operations using
+                Clean Code and Solid principles.
+              </Title>
             </DivTitle>
           </LeftDiv>
           <RightDiv>

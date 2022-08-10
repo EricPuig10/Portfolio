@@ -11,6 +11,10 @@ left: 95%;
 border-radius: 50%;
 color: white;
 cursor: pointer;
+@media (max-width: 830px){
+    top:92%;
+    left:92%;
+}
 @media (max-width: 450px){
     top:92%;
     left:85%;

@@ -6,8 +6,9 @@ export const MainDiv = styled.div`
   width: 100%;
   height: 70vh;
   display: flex;
+
   @media (max-width: 450px) {
-    padding-top: 30%;
+    padding-top: 35%;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -19,6 +20,10 @@ export const LeftDiv = styled.div`
   width: 40%;
   display: flex;
   flex-direction: column;
+  @media (max-width: 830px) {
+    width: 100%;
+    padding-left: 0%;
+  }
   @media (max-width: 450px) {
     width: 100%;
     padding-left: 0%;
@@ -27,10 +32,16 @@ export const LeftDiv = styled.div`
 
 export const DivTitle = styled.div`
   width: 90%;
-  padding-top: 15%;
+  padding-top: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 830px) {
+    padding: 0%;
+    width: 80%;
+    display: flex;
+    align-self: center;
+  }
   @media (max-width: 450px) {
     padding-top: 0%;
     padding-left: 4%;
@@ -39,9 +50,13 @@ export const DivTitle = styled.div`
 
 export const Title = styled.h2`
   color: white;
-  font-size: 2.5em;
-  @media (max-width: 450px) {
+  font-size: 2em;
+  text-align: center;
+  @media (max-width: 830px) {
     font-size: 2em;
+  }
+  @media (max-width: 450px) {
+    font-size: 1.5em;
   }
 `;
 
@@ -50,6 +65,10 @@ export const RightDiv = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 830px) {
+    width: 100%;
+    margin-top: 0%;
+  }
   @media (max-width: 450px) {
     width: 100%;
     margin-top: 10%;
@@ -65,6 +84,13 @@ export const DivImg = styled.div`
   background-position: center center;
   border-radius: 1vw;
   position: relative;
+  @media (max-width: 830px) {
+    margin-top: 20%;
+    width: 80%;
+    height: 100%;
+    border-radius: 10vw;
+
+  }
   @media (max-width: 450px) {
     margin-top: 20%;
     width: 80%;
@@ -91,6 +117,12 @@ export const BottomGlassDiv = styled.div`
   top: 85%;
   left: 60%;
   display: flex;
+  @media (max-width: 830px) {
+    width: 330px;
+    height: 100px;
+    top: -6%;
+    left: 55%;
+  }
   @media (max-width: 450px) {
     width: 220px;
     height: 80px;
@@ -112,6 +144,12 @@ export const TopGlassDiv = styled.div`
   top: -10%;
   left: -20%;
   display: flex;
+  @media (max-width: 830px) {
+    width: 240px;
+    height: 80px;
+    top: -2%;
+    left: -2%;
+  }
   @media (max-width: 450px) {
     width: 150px;
     height: 60px;
@@ -133,6 +171,10 @@ export const ImgUser = styled.img`
   object-fit: contain;
   border-radius: 50%;
   margin-left: 5%;
+  @media (max-width: 830px) {
+    width: 70%;
+    height: 85%;
+  }
 `;
 
 export const TextUserDiv = styled.div`
@@ -143,6 +185,10 @@ export const TextUserDiv = styled.div`
 `;
 export const TextUser = styled.p`
   color: #ffffffdb;
+  font-size: 1em;
+  @media (max-width: 830px) {
+    font-size: 1.6em;
+  }
   @media (max-width: 450px) {
     font-size: 1.2em;
   }
@@ -159,6 +205,9 @@ export const TextDiv = styled.div`
 export const Text = styled.p`
   color: #ffffffdb;
   text-align: center;
+  @media (max-width: 830px) {
+    font-size: 1.6em;
+  }
   @media (max-width: 450px) {
     font-size: 1.2em;
   }
