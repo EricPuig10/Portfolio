@@ -1,3 +1,12 @@
+# PERSONAL PORTFOLIO
+
+## 🔗 LINK
+[https://ericpuig10.github.io/FILMPAGE/](https://ericpuig10.github.io/Portfolio/)
+
+## 📜 BRIEFING
+Click the link to see some projects I've made in Factoria F5.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
