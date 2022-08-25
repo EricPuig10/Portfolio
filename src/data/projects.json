@@ -1,34 +1,50 @@
 [
   {
-    "title": "Movie-App",
-    "img": "https://user-images.githubusercontent.com/102654586/171607257-3054e12e-4168-4ea2-9477-0de9ff6daf37.png"
+    "title": "Boira Consulting",
+    "img": "https://img.freepik.com/vector-premium/consulta-texto-estilo-letreros-neon_44523-868.jpg",
+    "url": "https://ericpuig10.github.io/boira-consulting/",
+    "description":"Web page for an imaginary consulting company."
   },
   {
-    "title": "Movie-App",
-    "img": "https://user-images.githubusercontent.com/102654586/171607257-3054e12e-4168-4ea2-9477-0de9ff6daf37.png"
+    "title": "Hit The Dombo",
+    "img": "https://thumbs.dreamstime.com/b/beating-drum-neon-sign-red-sticks-melody-symbols-night-bright-advertisement-vector-illustration-style-music-parade-203974574.jpg",
+    "url": "https://ericpuig10.github.io/HitTheDombo/",
+    "description":"Web page to introduce us to events and variables in JS."
   },
   {
-    "title": "Movie-App",
-    "img": "https://user-images.githubusercontent.com/102654586/171607257-3054e12e-4168-4ea2-9477-0de9ff6daf37.png"
+    "title": "Food Project",
+    "img": "https://media.istockphoto.com/vectors/neon-pizza-slice-icon-logo-vector-id1200886485?k=20&m=1200886485&s=170667a&w=0&h=PtGd5aPo2gYRjFNYefc9wmAjaKpzV2IKMeu2B4OUOvI=",
+    "url": "https://ericpuig10.github.io/foodproject/",
+    "description":"Web page for an imaginary pizza business with the aim to add pizzas to a shopping cart."
   },
   {
-    "title": "Movie-App",
-    "img": "https://user-images.githubusercontent.com/102654586/171607257-3054e12e-4168-4ea2-9477-0de9ff6daf37.png"
+    "title": "Calculator",
+    "img": "https://thumbs.dreamstime.com/b/calculadora-ne%C3%B3n-icono-vector-ilustraci%C3%B3n-para-dise%C3%B1o-web-publicidad-banner-concepto-escolar-216261699.jpg",
+    "url": "https://ericpuig10.github.io/Calculadora/",
+    "description":"Page with a basic calulator."
   },
   {
-    "title": "Movie-App",
-    "img": "https://user-images.githubusercontent.com/102654586/171607257-3054e12e-4168-4ea2-9477-0de9ff6daf37.png"
+    "title": "To Do List",
+    "img": "https://media.istockphoto.com/vectors/list-neon-sign-choice-glowing-icon-vector-illustration-for-design-vector-id1326607510?k=20&m=1326607510&s=612x612&w=0&h=UyBQqJhrld-1WTy5ooUaKJegQWYnN5i-cEjRdbKdY6E=",
+    "url": "https://ericpuig10.github.io/ToDoList/",
+    "description":"Page with a To Do List to make a CRUD."
   },
   {
-    "title": "Movie-App",
-    "img": "https://user-images.githubusercontent.com/102654586/171607257-3054e12e-4168-4ea2-9477-0de9ff6daf37.png"
+    "title": "FILM HUB",
+    "img": "https://i.pinimg.com/564x/1e/80/b5/1e80b5d72209b48ae768747b2a8fae9b.jpg",
+    "url": "https://ericpuig10.github.io/FILMPAGE/",
+    "description":"Crud page of reviews and info of differents films"
   },
   {
-    "title": "Movie-App",
-    "img": "https://user-images.githubusercontent.com/102654586/171607257-3054e12e-4168-4ea2-9477-0de9ff6daf37.png"
+    "title": "Arte De Autor",
+    "img": "https://img.freepik.com/vector-gratis/tienda-online-letrero-neon_1262-19608.jpg",
+    "url": "https://github.com/EricPuig10/Hackaton2022F5#readme",
+    "description":"Project of a marketplace of art for the Hackaton of Factoria F5."
   },
   {
-    "title": "Movie-App",
-    "img": "https://user-images.githubusercontent.com/102654586/171607257-3054e12e-4168-4ea2-9477-0de9ff6daf37.png"
+    "title": "InstaKg",
+    "img": "https://i.pinimg.com/600x315/d3/b5/9b/d3b59b66d4f2d1cdecdc4821554e0bce.jpg",
+    "url": "https://github.com/EricPuig10/MomentsApp",
+    "description":"Page similar to Instagram, with users, to upload photos, like and comment them."
   }
 ]

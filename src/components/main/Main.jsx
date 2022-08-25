@@ -2,6 +2,8 @@ import {
   BottomGlassDiv,
   DivImg,
   DivTitle,
+  ImgGit,
+  ImgGitDiv,
   ImgUser,
   ImgUserDiv,
   LeftDiv,
@@ -38,7 +40,8 @@ export const Main = () => {
           <LeftDiv>
             <DivTitle>
               <Title>
-                {eric[0].slogan} <br></br>
+                Hello World I'm not "John Doe" but you are going to see my
+                name more frequently than his. <br></br>
                 <br></br> Dedicated, hard-worker and proactive. Develope and
                 test to increase the overall efficiency of operations using
                 Clean Code and Solid principles.
@@ -47,15 +50,18 @@ export const Main = () => {
           </LeftDiv>
           <RightDiv>
             <DivImg>
-              <MainImg src={logo} />
+              <MainImg src="https://res.cloudinary.com/ericpuig10/image/upload/v1661433487/logoeps_z4xkku.png" />
               <TopGlassDiv>
+                <ImgGitDiv href="https://www.linkedin.com/in/ericpuigvendrello">
+                  <ImgGit src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/github/github-original.svg"></ImgGit>
+                </ImgGitDiv>
                 <TextDiv>
                   <Text>{eric[0].work}</Text>
                 </TextDiv>
               </TopGlassDiv>
               <BottomGlassDiv>
                 <ImgUserDiv href="https://www.linkedin.com/in/ericpuigvendrello">
-                  <ImgUser src="https://media-exp1.licdn.com/dms/image/C4D03AQG17WUfd78sgA/profile-displayphoto-shrink_200_200/0/1587477510501?e=2147483647&v=beta&t=6sACypo0FI4lkEs7yB0gr5M6maTaNzYrRb-8f1m588o"></ImgUser>
+                  <ImgUser src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/linkedin/linkedin-original-wordmark.svg"></ImgUser>
                 </ImgUserDiv>
                 <TextUserDiv>
                   <TextUser>

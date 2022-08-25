@@ -105,8 +105,8 @@ export const DivImg = styled.div`
   }
 `;
 export const MainImg = styled.img`
-  width: 100%;
-  height: 100%;
+  width: 278px;
+  height: 320px;
   object-fit: cover;
 `;
 
@@ -138,15 +138,15 @@ export const BottomGlassDiv = styled.div`
 `;
 
 export const TopGlassDiv = styled.div`
-  position: absolute;
+position: absolute;
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4.5px);
   -webkit-backdrop-filter: blur(4.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 150px;
-  height: 60px;
+  width: 190px;
+  height: 70px;
   top: -10%;
   left: -20%;
   display: flex;
@@ -173,6 +173,28 @@ export const ImgUserDiv = styled.a`
 
 export const ImgUser = styled.img`
   width: 75%;
+  height: 80%;
+  object-fit: contain;
+  border-radius: 50%;
+  margin-left: 5%;
+  @media (max-width: 830px) {
+    width: 65%;
+    height: 85%;
+  }
+  @media (max-width: 450px) {
+    width: 80%;
+    height: 90%;
+  }
+`;
+
+export const ImgGitDiv = styled.a`
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+`;
+
+export const ImgGit = styled.img`
   height: 80%;
   object-fit: contain;
   border-radius: 50%;

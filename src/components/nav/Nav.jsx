@@ -35,7 +35,7 @@ export const Nav = () => {
     <>
       <NavDiv>
         <DivLogo>
-          <LogoImg src={logo} alt="epsLogo" />
+          <LogoImg src="https://media-exp1.licdn.com/dms/image/C4D03AQG17WUfd78sgA/profile-displayphoto-shrink_200_200/0/1587477510501?e=2147483647&v=beta&t=6sACypo0FI4lkEs7yB0gr5M6maTaNzYrRb-8f1m588o" alt="epsLogo" />
         </DivLogo>
         <BurguerButton onClick={toggleContent}>
           <i className="fa-solid fa-ellipsis"></i>

@@ -1,5 +1,6 @@
 import {
   CenterDiv,
+  Desc,
   DivProject,
   DivProjectsCont,
   ProjectImg,
@@ -21,10 +22,25 @@ export const Projects = () => {
         <TitleProjects>Projects</TitleProjects>
         <DivProjectsCont>
           {projects.map((project, key) => (
-            <DivProject key={key}>
-              <ProjectImg src={project.img} alt={project.title} />
-              <TitleProject></TitleProject>
-            </DivProject>
+            // <DivProject key={key}>
+            //   <a href={project.url}>
+            //     {" "}
+            //     <ProjectImg src={project.img} alt={project.title} />
+            //     <TitleProject></TitleProject>
+            //   </a>
+            // </DivProject>
+            <div className="container">
+              <div className="card front">
+                <ProjectImg src={project.img} />
+              </div>
+              <div className="card back">
+                <TitleProject>{project.title}</TitleProject>
+                <Desc>{project.description}</Desc>
+                <a href={project.url} className="btn">
+                  Go to the MVP
+                </a>
+              </div>
+            </div>
           ))}
         </DivProjectsCont>
       </CenterDiv>

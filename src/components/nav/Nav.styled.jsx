@@ -93,9 +93,10 @@ export const DivNavContact = styled.div`
 `;
 
 export const LogoImg = styled.img`
-  width: 100%;
-  height: 98%;
+  width: 50px;
+  height: 50px;
   object-fit: scale-down;
+  border-radius: 100%;
   cursor: pointer;
 `;
 
