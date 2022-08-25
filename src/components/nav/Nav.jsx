@@ -7,11 +7,11 @@ import {
   LogoImg,
   NavDiv,
 } from "./Nav.styled";
-import logo from "../../images/logoeps.png";
 import { ContactBtn } from "../buttons/ContactBtn/ContactBtn.styled";
 import { NavBtn } from "../buttons/NavButton/NavButton.styled";
 import { scroller } from "react-scroll";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export const Nav = () => {
   const [hbIsOpened, setHbIsOpened] = useState(false);
@@ -35,7 +35,12 @@ export const Nav = () => {
     <>
       <NavDiv>
         <DivLogo>
-          <LogoImg src="https://media-exp1.licdn.com/dms/image/C4D03AQG17WUfd78sgA/profile-displayphoto-shrink_200_200/0/1587477510501?e=2147483647&v=beta&t=6sACypo0FI4lkEs7yB0gr5M6maTaNzYrRb-8f1m588o" alt="epsLogo" />
+          <Link to="/">
+            <LogoImg
+              src="https://media-exp1.licdn.com/dms/image/C4D03AQG17WUfd78sgA/profile-displayphoto-shrink_200_200/0/1587477510501?e=2147483647&v=beta&t=6sACypo0FI4lkEs7yB0gr5M6maTaNzYrRb-8f1m588o"
+              alt="epsLogo"
+            />
+          </Link>
         </DivLogo>
         <BurguerButton onClick={toggleContent}>
           <i className="fa-solid fa-ellipsis"></i>
@@ -43,34 +48,52 @@ export const Nav = () => {
         {!hbIsOpened ? null : (
           <>
             <DivHb>
-              <NavBtn onClick={() => scroller.scrollTo("about", scrollType)}>
-                ABOUT ME
-              </NavBtn>
-              <NavBtn
-                onClick={() => scroller.scrollTo("technologies", scrollType)}
-              >
-                TECHNOLOGIES
-              </NavBtn>
-              <NavBtn onClick={() => scroller.scrollTo("projects", scrollType)}>
-                PROJECTS
-              </NavBtn>
+              <Link to="/">
+                <NavBtn onClick={() => scroller.scrollTo("about", scrollType)}>
+                  ABOUT ME
+                </NavBtn>
+              </Link>
+              <Link to="/">
+                <NavBtn
+                  onClick={() => scroller.scrollTo("technologies", scrollType)}
+                >
+                  TECHNOLOGIES
+                </NavBtn>
+              </Link>
+              <Link to="/">
+                <NavBtn
+                  onClick={() => scroller.scrollTo("projects", scrollType)}
+                >
+                  PROJECTS
+                </NavBtn>
+              </Link>
             </DivHb>
           </>
         )}
 
         <DivNavButtons>
-          <NavBtn onClick={() => scroller.scrollTo("about", scrollType)}>
-            ABOUT ME
-          </NavBtn>
-          <NavBtn onClick={() => scroller.scrollTo("technologies", scrollType)}>
-            TECHNOLOGIES
-          </NavBtn>
-          <NavBtn onClick={() => scroller.scrollTo("projects", scrollType)}>
-            PROJECTS
-          </NavBtn>
+          <Link to="/">
+            <NavBtn onMouseOver={() => scroller.scrollTo("about", scrollType)}>
+              ABOUT ME
+            </NavBtn>
+          </Link>
+          <Link to="/">
+            <NavBtn
+              onMouseOver={() => scroller.scrollTo("technologies", scrollType)}
+            >
+              TECHNOLOGIES
+            </NavBtn>
+          </Link>
+          <Link to="/">
+            <NavBtn onMouseOver={() => scroller.scrollTo("projects", scrollType)}>
+              PROJECTS
+            </NavBtn>
+          </Link>
         </DivNavButtons>
         <DivNavContact>
-          <ContactBtn>CONTACT</ContactBtn>
+          <Link to="/contact">
+            <ContactBtn>CONTACT</ContactBtn>
+          </Link>
         </DivNavContact>
       </NavDiv>
     </>

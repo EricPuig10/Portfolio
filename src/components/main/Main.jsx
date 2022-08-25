@@ -17,7 +17,6 @@ import {
   Title,
   TopGlassDiv,
 } from "./Main.styled";
-import logo from "../../images/logoeps.png";
 import { Tech } from "../tech/Tech";
 import ericdata from "../../data/eric.json";
 import { useEffect, useState } from "react";

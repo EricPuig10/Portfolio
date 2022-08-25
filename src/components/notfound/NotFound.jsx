@@ -13,7 +13,7 @@ export const NotFound = () => {
           <div class="bl_page404__el1"></div>
           <div class="bl_page404__el2"></div>
           <div class="bl_page404__el3"></div>
-          <a class="bl_page404__link" href="/">
+          <a href="/Portfolio" class="bl_page404__link">
             go home
           </a>
         </div>

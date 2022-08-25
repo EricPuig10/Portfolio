@@ -105,8 +105,8 @@ export const DivImg = styled.div`
   }
 `;
 export const MainImg = styled.img`
-  width: 278px;
-  height: 320px;
+  width: 300px;
+  height: 360px;
   object-fit: cover;
 `;
 
