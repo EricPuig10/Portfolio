@@ -14,7 +14,7 @@ export const CenterDiv = styled.div`
     padding-bottom: 5%;
   }
   @media (max-width: 450px) {
-    padding-top: 25%;
+    padding-top: 50%;
     padding-bottom: 5%;
   }
 `;
