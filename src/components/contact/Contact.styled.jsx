@@ -14,7 +14,6 @@ export const DivContact = styled.div`
   }
   @media (max-width: 450px) {
     padding-top: 60%;
-    padding-left: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -39,6 +38,7 @@ width: 100%;
 background-color: transparent;
 @media (max-width:450px){
     display: flex;
+    padding-left: 20%;
     flex-direction: column;
  
 }
