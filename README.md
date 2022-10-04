@@ -1,7 +1,7 @@
 # PERSONAL PORTFOLIO
 
 ## 🔗 LINK
-[https://ericpuig10.github.io/FILMPAGE/](https://ericpuig10.github.io/Portfolio/)
+[https://ericpuig10.github.io/Portfolio/](https://ericpuig10.github.io/Portfolio/)
 
 ## 📜 BRIEFING
 Click the link to see some projects I've made in Factoria F5.
