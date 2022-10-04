@@ -11,7 +11,7 @@ export const Contact = () => {
     <DivContact>
       <LeftDiv>
         <IconContact>
-          <a href="mailto:puigvendrelloetona@gmail.com?Subject=Quiero%conocerte!">
+          <a href="mailto:puigvendrelloetona@gmail.com?Subject=Quiero%conocerte!!">
             {" "}
             <ImageContact src="https://icons-for-free.com/download-icon-book+circle+contact+contacts+email+gmail+icon-1320073243450677731_0.svg" />
           </a>
