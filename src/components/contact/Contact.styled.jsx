@@ -13,9 +13,11 @@ export const DivContact = styled.div`
     align-content: center;
   }
   @media (max-width: 450px) {
-    padding-top: 35%;
+    padding-top: 60%;
+    padding-left: 20%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-content: center;
   }
 `;
@@ -38,6 +40,7 @@ background-color: transparent;
 @media (max-width:450px){
     display: flex;
     flex-direction: column;
+ 
 }
 `
 export const ImageContact = styled.img`
@@ -46,4 +49,10 @@ export const ImageContact = styled.img`
   object-fit: fill;
   border-radius: 10%;
   cursor: pointer;
+  @media (max-width:450px){
+    margin-bottom: 20%;
+    width: 40%;
+    height: 80%;
+ 
+}
 `

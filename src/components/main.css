@@ -103,7 +103,7 @@ body::-webkit-scrollbar-thumb {
     height: 100%;
     width: 100%;
     background: linear-gradient(-45deg, #990087, #970067, #100027, #0b000c);
-    background-position: 20% 20%;
+    background-position: 20% 75%;
     background-size: 1000% 2000%;
     animation: gradient 5s ease 1;
     /* background-image: url("../images/back1.jpg");
