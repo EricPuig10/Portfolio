@@ -51,7 +51,7 @@ export const Main = () => {
             <DivImg>
               <MainImg src="https://res.cloudinary.com/ericpuig10/image/upload/v1661433487/logoeps_z4xkku.png" />
               <TopGlassDiv>
-                <ImgGitDiv href="https://www.linkedin.com/in/ericpuigvendrello">
+                <ImgGitDiv href="https://github.com/EricPuig10">
                   <ImgGit src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/github/github-original.svg"></ImgGit>
                 </ImgGitDiv>
                 <TextDiv>
