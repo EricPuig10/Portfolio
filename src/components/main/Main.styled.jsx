@@ -18,6 +18,7 @@ export const MainDiv = styled.div`
     display: flex;
     flex-direction: column;
     align-content: center;
+    margin-bottom: 50%;
   }
 `;
 
@@ -56,8 +57,9 @@ export const DivTitle = styled.div`
 
 export const Title = styled.h2`
   color: white;
-  font-size: 2em;
+  font-size: 1.8em;
   text-align: center;
+  line-height: 1.4em;
   @media (max-width: 830px) {
     font-size: 2em;
   }
@@ -95,7 +97,6 @@ export const DivImg = styled.div`
     width: 80%;
     height: 100%;
     border-radius: 10vw;
-
   }
   @media (max-width: 450px) {
     margin-top: 20%;
@@ -108,6 +109,12 @@ export const MainImg = styled.img`
   width: 300px;
   height: 360px;
   object-fit: cover;
+  @media (max-width: 450px) {
+    margin-top: 5%;
+    width: 340px;
+    height: 360px;
+    object-fit: cover;
+  }
 `;
 
 export const BottomGlassDiv = styled.div`
@@ -138,7 +145,7 @@ export const BottomGlassDiv = styled.div`
 `;
 
 export const TopGlassDiv = styled.div`
-position: absolute;
+  position: absolute;
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4.5px);
@@ -241,6 +248,6 @@ export const Text = styled.p`
     font-size: 1.6em;
   }
   @media (max-width: 450px) {
-    font-size: 1.2em;
+    font-size: 1.05em;
   }
 `;

@@ -39,11 +39,12 @@ export const Main = () => {
           <LeftDiv>
             <DivTitle>
               <Title>
-                Hello World I'm not "John Doe" but you are going to see my
-                name more frequently than his. <br></br>
+                Hello World I'm not "John Doe" but you are going to see my name
+                more frequently than his. <br></br>
                 <br></br> Dedicated, hard-worker and proactive. Develope and
                 test to increase the overall efficiency of operations using
-                Clean Code and Solid principles.
+                Clean Code and Solid principles. <br></br> <br></br>Winner of the Hackaton of
+                Factoria F5.
               </Title>
             </DivTitle>
           </LeftDiv>
