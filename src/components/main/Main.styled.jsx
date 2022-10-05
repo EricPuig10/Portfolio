@@ -18,7 +18,7 @@ export const MainDiv = styled.div`
     display: flex;
     flex-direction: column;
     align-content: center;
-    margin-bottom: 50%;
+    margin-bottom: 250px;
   }
 `;
 
