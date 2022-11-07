@@ -11,10 +11,13 @@ import { ContactBtn } from "../buttons/ContactBtn/ContactBtn.styled";
 import { NavBtn } from "../buttons/NavButton/NavButton.styled";
 import { scroller } from "react-scroll";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 export const Nav = () => {
   const [hbIsOpened, setHbIsOpened] = useState(false);
+
+  let navigate = useNavigate();
+  const location = useLocation();
 
   const toggleContent = () => {
     setHbIsOpened(!hbIsOpened);
@@ -31,6 +34,16 @@ export const Nav = () => {
     offset: -10,
   };
 
+  const navigateAndScroll = (whereScroll) => {
+    if (location.pathname === "/contact") {
+      navigate("/");
+      scroller.scrollTo(whereScroll, scrollType);
+    } else {
+      scroller.scrollTo(whereScroll, scrollType);
+    }
+  };
+
+  console.log(location);
   return (
     <>
       <NavDiv>
@@ -49,46 +62,46 @@ export const Nav = () => {
           <>
             <DivHb>
               <Link to="/">
-                <NavBtn onClick={() => scroller.scrollTo("about", scrollType)}>
+                <NavBtn onClick={() => navigateAndScroll("about")}>
                   ABOUT ME
                 </NavBtn>
               </Link>
-              <Link to="/">
-                <NavBtn
-                  onClick={() => scroller.scrollTo("technologies", scrollType)}
-                >
-                  TECHNOLOGIES
-                </NavBtn>
-              </Link>
-              <Link to="/">
-                <NavBtn
-                  onClick={() => scroller.scrollTo("projects", scrollType)}
-                >
-                  PROJECTS
-                </NavBtn>
-              </Link>
+              {location.pathname === "/contact" ? null : (
+                <>
+                  <Link to="/">
+                    <NavBtn onClick={() => navigateAndScroll("technologies")}>
+                      TECHNOLOGIES
+                    </NavBtn>
+                  </Link>
+                  <Link to="/">
+                    <NavBtn onClick={() => navigateAndScroll("projects")}>
+                      PROJECTS
+                    </NavBtn>
+                  </Link>
+                </>
+              )}
             </DivHb>
           </>
         )}
 
         <DivNavButtons>
           <Link to="/">
-            <NavBtn onMouseOver={() => scroller.scrollTo("about", scrollType)}>
-              ABOUT ME
-            </NavBtn>
+            <NavBtn onClick={() => navigateAndScroll("about")}>ABOUT ME</NavBtn>
           </Link>
-          <Link to="/">
-            <NavBtn
-              onMouseOver={() => scroller.scrollTo("technologies", scrollType)}
-            >
-              TECHNOLOGIES
-            </NavBtn>
-          </Link>
-          <Link to="/">
-            <NavBtn onMouseOver={() => scroller.scrollTo("projects", scrollType)}>
-              PROJECTS
-            </NavBtn>
-          </Link>
+          {location.pathname === "/contact" ? null : (
+            <>
+              <Link to="/">
+                <NavBtn onClick={() => navigateAndScroll("technologies")}>
+                  TECHNOLOGIES
+                </NavBtn>
+              </Link>
+              <Link to="/">
+                <NavBtn onClick={() => navigateAndScroll("projects")}>
+                  PROJECTS
+                </NavBtn>
+              </Link>
+            </>
+          )}
         </DivNavButtons>
         <DivNavContact>
           <Link to="/contact">
